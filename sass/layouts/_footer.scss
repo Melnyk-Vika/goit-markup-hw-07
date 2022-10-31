@@ -46,11 +46,10 @@
     letter-spacing: 0.03em;
     text-decoration: none;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.address__link:hover,
-.address__link:focus {
-    color: var(--akcent-color);
+    &:hover,
+    &:focus {
+        color: var(--akcent-color);
+        }
 }
 
 .address__title {
@@ -103,21 +102,19 @@
     align-items: center;
     justify-content: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+        background-color: var(--akcent-color);
+        }
 }
 
 .footer-icon__icons {
     fill: currentColor;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer-icon__link:hover,
-.footer-icon__link:focus {
-    background-color: var(--akcent-color);
-}
-
-.footer-icon__icons:hover,
-.footer-icon__icons:focus {
-    color: var(--primary-white-color);
+    &:hover,
+    &:focus {
+        color: var(--primary-white-color);
+        }
 }
 
 .socials .title {
@@ -171,11 +168,10 @@
     background-color: var(--akcent-color);
     margin-left: 12px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.subscription__button:hover,
-.subscription__button:focus {
-    background-color: var(--active-button-color);
+    &:hover,
+    &:focus {
+        background-color: var(--active-button-color);
+        }
 }
 
 .subscription__icon {
